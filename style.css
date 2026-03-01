@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe ul ', sans-serif;
+
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #289bdd;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #19e485;
+}
+
+nav ul {
+     list-style: none;
+     display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+} 
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg,#88ff00,#122ed1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aquamarine(114,58,204);
+    padding-top: 80px;
+    
+}
+
+.hero img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+.hero.botton {
+    padding: 10px 20px;
+    background: #60e921(29, 86, 209);
+    color: aquamarine;
+    border: none;
+    border-radius:25px;
+    cursor: pointer;
+    margin: top 15px;
+}
+
+section{
+    padding: 80px 50px;
+    text-align: center;
+
+}
+.dark {
+    background: #18fac9;
+}
+
+.skills {
+    max-width: 6000;
+    margin: auto;
+}
+
+.skills {
+    margin: 20px 0;
+
+}
+
+.bar {
+    background: #1ecbd1;
+    height: 10px;
+    border-radius: 10;
+}
+
+.html {width: 90%; background: #000000;}
+.css {width: 85; background: #00aeff; }
+.js {width: 75; background: #1ed8b0; }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20PX;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #d1bd0c;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #18fac9;
+}
+
+footer {
+    background: #077ce9(104, 58, 231);
+    color: oklch(from color 1 c h);
+    text-align: 20px;
+    padding: 20px;
+}
+
+
+    
+
+
